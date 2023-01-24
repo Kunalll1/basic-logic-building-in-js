@@ -30,3 +30,17 @@ function loopfun(storeArr) {
 // loopfun([2, 4, 6, 7, 9]);
 
 // ========================================================================================================
+// 3.Write a program that takes in a number and prints "positive" if the number is positive, "negative" if the number is negative, and "zero" if the number is zero. [condutation]
+
+function check(num) {
+  if (num >= 1) {
+    console.log("It's a positive number");
+  } else if (num === 0) {
+    console.log("It's a Zero");
+  } else {
+    console.log("It's a Negative number");
+  }
+}
+// check(10); OUTPUT:::: [POSITIVE ]
+// check(0); OUTPUT:::: [ZERO]
+// check(-10);OUTPUT:::: [NEGATIVE]
