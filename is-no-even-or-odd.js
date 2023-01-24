@@ -1,4 +1,4 @@
-// TODO: Write a program that takes in a number and prints "even" if the number is even and "odd" if the number is odd.
+// TODO: Write a program that takes in a number and prints "even" if the number is even and "odd" if the number is odd. [condition logic ]
 function checkEvenAndOdd(num) {
   if (num % 2 == 0) {
     console.log(`${num} is Even`);
@@ -9,7 +9,7 @@ function checkEvenAndOdd(num) {
 
 checkEvenAndOdd(4);
 
-//TODO: Adding little bit complexity to this program :::: Now what i want we have a array on number and we want to check if its EVEN or ODD
+//TODO: Adding little bit complexity to this program :::: Now what i want we have a array on number and we want to check if its EVEN or ODD [condition logic + Loops + Arrays ]
 
 function arrOfNumber(numb) {
   for (let listOfNum in numb) {
