@@ -44,3 +44,13 @@ function check(num) {
 // check(10); OUTPUT:::: [POSITIVE ]
 // check(0); OUTPUT:::: [ZERO]
 // check(-10);OUTPUT:::: [NEGATIVE]
+
+// ========================================================================================================
+// 4. Write a for loop that iterates from 0 to 10 and logs the numbers to the console.
+
+function loop1_10(loopnum) {
+  for (let i = 0; i <= loopnum.length; i++) {
+    console.log(i);
+  }
+}
+// loop1_10([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); OUTPUT:::: [1-10 looped]
