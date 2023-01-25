@@ -14,9 +14,22 @@ function whileLoop(evenNum) {
     i++;
   }
 }
-
 // calling the function and passing an array of numbers
 
 // whileLoop([1, 2, 4, 5, 7, 8, 9, 10, 12, 15, 22]); // OUTPUT:::: [2,4,8,10,12,22]
-
 // ===========================================================================================================
+
+// 2. Create a simple "Car" object that has properties for the make, model, and year, as well as a method to display the car's information.
+
+function teslaCar() {
+  const carList = {
+    carModel: "s",
+    range: "396 km",
+    pickSpeed_0_60: "under 1.99s",
+    topSpeed: "200mph",
+    powerPack: "1020hp",
+  };
+  console.log(Object.keys(carList)); // accessing key of the object
+  console.log(Object.keys(carList)); // accessing Value of the object
+}
+teslaCar();
