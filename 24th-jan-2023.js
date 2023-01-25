@@ -46,7 +46,7 @@ function check(num) {
 // check(-10);OUTPUT:::: [NEGATIVE]
 
 // ========================================================================================================
-// 4. Write a for loop that iterates from 0 to 10 and logs the numbers to the console.
+// 4. Write a for loop that iterates from 0 to 10 and logs the numbers to the console. [LOOPs]
 
 function loop1_10(loopnum) {
   for (let i = 0; i <= loopnum.length; i++) {
