@@ -23,3 +23,13 @@ function nameArr(name) {
 nameArr(["kunal", "karan", "kusum", "jaya", "suraj", "ankit"]);
 
 // ==================================================================================
+// [Qus-3]Write a function that takes an array of numbers as input and returns an array of the squares of each number using forEach() and a callback function.
+
+function squareNumber(allNum) {
+  allNum.forEach((loopNum) => {
+    // console.log(loopNum * loopNum);
+  });
+}
+squareNumber([2, 20, 40, 30, 49]);
+
+// ============================================================================
