@@ -33,3 +33,29 @@ function squareNumber(allNum) {
 squareNumber([2, 20, 40, 30, 49]);
 
 // ============================================================================
+// [Qus-4]Write a function that takes an array of objects as input and logs the values of a specified property of each object using forEach() and a callback function.
+
+function objectLoop(obj) {
+  obj.forEach((objName) => {
+    // console.log(
+    //   `I like ${objName.color} that have type of ${objName.type} and it begain at ${objName.registration} and lastly we can input ${objName.capacity} capacity in the sentense`
+    // );
+  });
+}
+
+objectLoop([
+  {
+    color: "purple",
+    type: "minivan",
+    registration: new Date("2017-01-03"),
+    capacity: 7,
+  },
+  {
+    color: "red",
+    type: "station wagon",
+    registration: new Date("2018-03-03"),
+    capacity: 5,
+  },
+]);
+
+// =================================================================
