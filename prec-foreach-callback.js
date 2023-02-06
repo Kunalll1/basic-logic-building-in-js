@@ -59,3 +59,16 @@ objectLoop([
 ]);
 
 // =================================================================
+// [Qus-5]Write a function that takes an array of numbers as input and returns the sum of all numbers using forEach() and a callback function.
+
+function sumArrNum(sum) {
+  let ins = 0; // always declare the Initial value outside of the FOREACH Loop.
+  sum.forEach((sumArr) => {
+    ins += sumArr; //After doing the calculation of the array return the value
+  }); // Always do RETURN Out side of the ForEach loop.
+  return ins;
+}
+
+// console.log(sumArrNum([100, 200, 30, 40, 500, 600, 8]));
+
+// ========================================================================
