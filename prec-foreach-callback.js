@@ -12,3 +12,14 @@ function numberArr(num) {
 numberArr([100, 10, 20, 50, 30]);
 
 // ====================================================================
+// [Qus-2] Write a function that takes an array of names and returns an array of greetings using forEach() and a callback function.
+
+function nameArr(name) {
+  name.forEach((nameLoop) => {
+    // console.log(`Welcome ${nameLoop} to our family group`);
+  });
+}
+
+nameArr(["kunal", "karan", "kusum", "jaya", "suraj", "ankit"]);
+
+// ==================================================================================
