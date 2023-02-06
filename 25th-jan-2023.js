@@ -32,4 +32,6 @@ function teslaCar() {
   console.log(Object.keys(carList)); // accessing key of the object
   console.log(Object.keys(carList)); // accessing Value of the object
 }
-teslaCar();
+// teslaCar();
+
+// ===========================================================================================================
